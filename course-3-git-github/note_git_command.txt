@@ -1,11 +1,31 @@
+# diff and patch
 diff --help
 
 patch --help
 
 diff rearrange1.py rearrange2.py
-
 diff -u rearrange1.py rearrange2.py
-
 diff -u rearrange1.py rearrange2.py > change.diff
 
 patch rearrange1.py < change.diff
+
+# Git
+git config --global user.email "me@example.com"
+git config --global user.name "My name"
+
+# Add git repository
+git init
+git add .
+git commit -m "update"
+git remote add origin https://github.com/phungphuong355/python-for-automation.git
+git push origin main [--force]
+
+# Cấu hình git
+nano .git/config
+
+# Xóa commit trước đó
+git reset --soft HEAD~1
+
+# Xem log
+git log --oneline
+
