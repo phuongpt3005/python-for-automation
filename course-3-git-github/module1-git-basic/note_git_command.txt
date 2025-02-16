@@ -9,14 +9,17 @@ diff -u rearrange1.py rearrange2.py > change.diff
 
 patch rearrange1.py < change.diff
 
-# Git
+# Git install
+yum install git
+git --version
+
+# Git info
 git config --global user.email "me@example.com"
 git config --global user.name "My name"
 
 # Add git repository
 git init
 git add .
-git status
 git commit -m "update"
 git remote add origin https://github.com/phungphuong355/python-for-automation.git
 git push origin main [--force]
@@ -24,9 +27,17 @@ git push origin main [--force]
 # Cấu hình git
 nano .git/config
 
-# Xóa commit trước đó
-git reset --soft HEAD~1
+# Git update
+git pull
+
+# Git state
+git status
 
 # Xem log
-git log --oneline
+git log [--oneline]
 
+# Git diff
+git diff .
+
+# Xóa commit trước đó
+git reset --soft HEAD~1
