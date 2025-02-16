@@ -16,6 +16,7 @@ git config --global user.name "My name"
 # Add git repository
 git init
 git add .
+git status
 git commit -m "update"
 git remote add origin https://github.com/phungphuong355/python-for-automation.git
 git push origin main [--force]
