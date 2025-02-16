@@ -1,3 +1,11 @@
+diff --help
+
+patch --help
+
 diff rearrange1.py rearrange2.py
 
-diff --help
+diff -u rearrange1.py rearrange2.py
+
+diff -u rearrange1.py rearrange2.py > change.diff
+
+patch rearrange1.py < change.diff
