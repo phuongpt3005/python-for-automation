@@ -1,6 +1,5 @@
 # diff and patch
 diff --help
-
 patch --help
 
 diff rearrange1.py rearrange2.py
