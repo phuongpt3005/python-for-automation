@@ -15,3 +15,9 @@ git diff --staged
 
 # See change before git add
 git add -p
+
+# Git remove
+git rm <source>
+
+# Git rename
+git mv <source> <dest>
