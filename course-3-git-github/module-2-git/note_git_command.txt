@@ -7,3 +7,11 @@ git log -p
 git log -stat
 
 git show 7c8a394173d4741ffd9bad0836ad725c7126fc5c
+
+# Git diff
+git diff
+
+git diff --staged
+
+# See change before git add
+git add -p
