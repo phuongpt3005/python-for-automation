@@ -1,2 +1,9 @@
 # Git commit without git add step
 git commit -a -m "Call check_reboot from main, exit with 1 on error"
+
+# Git log detail
+git log -p
+
+git log -stat
+
+git show 7c8a394173d4741ffd9bad0836ad725c7126fc5c
