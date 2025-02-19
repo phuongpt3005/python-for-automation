@@ -27,3 +27,7 @@ git checkout <source>
 
 # Git reset
 git reset HEAD <source>
+
+# Git overwrite commit
+git commit --amend
+
