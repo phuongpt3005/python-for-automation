@@ -1,10 +1,12 @@
 # Open file
 hello = open("./hello.txt")
+print("Open file")
 print(hello.readline())
 print(hello.read())
 hello.close()
 
 # Read file
+print("Read file")
 with open("./hello.txt") as file:
     print(file.read())
 
@@ -25,7 +27,7 @@ print(lines)
 --------------------------------------------------------------------------
 | 'x'  | open for exclusive creation, failing if the file already exists |
 --------------------------------------------------------------------------
-| 'a'  | open for writing appending to the end of file if it exists      | 
+| 'a'  | open for writing appending to the end of file if it exists      |
 --------------------------------------------------------------------------
 | 'b'  | binary mode                                                     |
 --------------------------------------------------------------------------
