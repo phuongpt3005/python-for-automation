@@ -6,7 +6,7 @@ git log -p
 
 git log -stat
 
-git show 7c8a394173d4741ffd9bad0836ad725c7126fc5c
+git show <id_log>
 
 # Git diff
 git diff
@@ -21,3 +21,9 @@ git rm <source>
 
 # Git rename
 git mv <source> <dest>
+
+# Git undo changes
+git checkout <source>
+
+# Git reset
+git reset HEAD <source>
