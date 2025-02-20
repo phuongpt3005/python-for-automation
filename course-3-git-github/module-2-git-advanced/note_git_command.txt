@@ -18,6 +18,8 @@ git log -stat
 
 git show <id_log>
 
+git log --graph --oneline
+
 -----------------------------------------------------
 # Git diff
 git diff
@@ -52,3 +54,8 @@ git checkout <branch>
 
 # Git delete branch
 git branch -d new-feature
+
+# Git merge
+git merge <branch>
+
+git merge --abort
