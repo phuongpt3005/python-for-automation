@@ -49,3 +49,6 @@ git checkout -b even-better-feature
 
 # Git switch to branchs
 git checkout <branch>
+
+# Git delete branch
+git branch -d new-feature
