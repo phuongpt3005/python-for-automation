@@ -1,6 +1,16 @@
 # Git commit without git add step
 git commit -a -m "Call check_reboot from main, exit with 1 on error"
 
+# Git reset
+git reset HEAD <source>
+
+# Git overwrite commit
+git commit --amend
+
+# Git revert commit
+git revert HEAD
+
+-----------------------------------------------------
 # Git log detail
 git log -p
 
@@ -8,11 +18,13 @@ git log -stat
 
 git show <id_log>
 
+-----------------------------------------------------
 # Git diff
 git diff
 
 git diff --staged
 
+-----------------------------------------------------
 # See change before git add
 git add -p
 
@@ -25,9 +37,15 @@ git mv <source> <dest>
 # Git undo changes
 git checkout <source>
 
-# Git reset
-git reset HEAD <source>
+-----------------------------------------------------
+# Git check branch
+git branch
 
-# Git overwrite commit
-git commit --amend
+# Git create new branch
+git branch new-feature
 
+# Git create new branch and switch to new branch
+git checkout -b even-better-feature
+
+# Git switch to branchs
+git checkout <branch>
