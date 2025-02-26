@@ -1,0 +1,9 @@
+# Git remote
+git clone https://github.com/phuongpt3005/python-for-automation.git
+
+git pull
+
+git push
+
+# Git login
+git config --global credential.helper cache
