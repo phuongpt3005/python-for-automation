@@ -5,5 +5,9 @@ git pull
 
 git push
 
+git remote -v
+
+git remove show origin
+
 # Git login
 git config --global credential.helper cache
